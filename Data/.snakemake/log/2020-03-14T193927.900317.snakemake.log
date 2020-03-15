@@ -1,0 +1,3 @@
+WildcardError in line 5 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+No values given for wildcard 'sample,\\d+'.
+  File "/export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake", line 5, in <module>

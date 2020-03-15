@@ -1,0 +1,46 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	find_orthologs
+	3
+
+[Sat Mar 14 12:37:18 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/PB.faa
+    output: Results/2_Orthologs/PB
+    jobid: 1
+    wildcards: sample=PB
+
+
+[Sat Mar 14 12:37:18 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/HT.faa
+    output: Results/2_Orthologs/HT
+    jobid: 2
+    wildcards: sample=HT
+
+Terminating processes on user request, this might take some time.
+[Sat Mar 14 12:37:47 2020]
+Error in rule find_orthologs:
+    jobid: 1
+    output: Results/2_Orthologs/PB
+    shell:
+        
+		busco -m protein -i Results/1_GeneSequences/PB.faa -o PB -l plasmodium_odb10
+		mv PB Results/2_Orthologs
+		mv busco_downloads Results/2_Orthologs
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+ImproperOutputException in line 24 of /export/home/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+Outputs of incorrect type (directories when expecting files or vice versa). Output directories must be flagged with directory(). for rule find_orthologs:
+Results/2_Orthologs/HT
+Removing output files of failed job find_orthologs since they might be corrupted:
+Results/2_Orthologs/HT
+Removing output files of failed job find_orthologs since they might be corrupted:
+Results/2_Orthologs/PB
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-14T123718.686074.snakemake.log

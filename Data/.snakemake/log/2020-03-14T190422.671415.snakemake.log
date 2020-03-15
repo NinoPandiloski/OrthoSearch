@@ -1,0 +1,5 @@
+The flag 'directory' used in rule file_handling is only valid for outputs, not inputs.
+The flag 'directory' used in rule file_handling is only valid for outputs, not inputs.
+SyntaxError:
+Not all output, log and benchmark files of rule file_handling contain the same wildcards. This is crucial though, in order to avoid that two or more jobs write to the same file.
+  File "/export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake", line 49, in <module>

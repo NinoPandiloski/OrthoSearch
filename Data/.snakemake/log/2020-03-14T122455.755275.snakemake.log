@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	file_handling
+	2
+
+[Sat Mar 14 12:24:55 2020]
+rule file_handling:
+    input: Results/2_Orthologs/PB/run_plasmodium_odb10/full_table.tsv, Results/2_Orthologs/HT/run_plasmodium_odb10/full_table.tsv
+    output: Results/2_Orthologs/all_BUSCOs.txt
+    jobid: 1
+
+[Sat Mar 14 12:24:55 2020]
+Error in rule file_handling:
+    jobid: 1
+    output: Results/2_Orthologs/all_BUSCOs.txt
+    shell:
+        
+		cat Results/2_Orthologs/PB/run_plasmodium_odb10/full_table.tsv Results/2_Orthologs/HT/run_plasmodium_odb10/full_table.tsv | grep "Complete" >> Results/2_Orthologs/all.BUSCOs.txt; done
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-14T122455.755275.snakemake.log

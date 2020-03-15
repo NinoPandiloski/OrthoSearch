@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 8 of /export/home/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+Missing input files for rule gene_sequence:
+busco_downloads.genome
+busco_downloads.gtf

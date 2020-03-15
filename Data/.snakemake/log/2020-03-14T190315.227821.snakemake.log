@@ -1,0 +1,3 @@
+WorkflowError in line 41 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Flags in file patterns given to expand() are invalid. Flags (e.g. temp(), directory()) have to be applied outside of expand (e.g. 'temp(expand("plots/{sample}.pdf", sample=SAMPLES))').
+  File "/export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake", line 41, in <module>

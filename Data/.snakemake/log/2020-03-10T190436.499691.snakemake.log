@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 25 of /export/home/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+Wildcards in input files cannot be determined from output files:
+'sample'

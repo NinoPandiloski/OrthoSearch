@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	find_orthologs
+	2	gene_sequence
+	5
+
+[Sat Mar 14 13:26:12 2020]
+rule gene_sequence:
+    input: HT.genome, HT.gtf
+    output: Results/1_GeneSequences/HT.fna, Results/1_GeneSequences/HT.faa, Results/1_GeneSequences/HT.log
+    jobid: 4
+    wildcards: sample=HT
+
+
+[Sat Mar 14 13:26:12 2020]
+rule gene_sequence:
+    input: PB.genome, PB.gtf
+    output: Results/1_GeneSequences/PB.fna, Results/1_GeneSequences/PB.faa, Results/1_GeneSequences/PB.log
+    jobid: 3
+    wildcards: sample=PB
+
+[Sat Mar 14 13:26:12 2020]
+Error in rule gene_sequence:
+    jobid: 4
+    output: Results/1_GeneSequences/HT.fna, Results/1_GeneSequences/HT.faa, Results/1_GeneSequences/HT.log
+    shell:
+        
+		../bin/gffParse.pl -i HT.genome -g HT.gtf -b HT 
+-c -p
+		mv *.faa *.fna *.log Results/1_GeneSequences 
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Sat Mar 14 13:26:13 2020]
+Error in rule gene_sequence:
+    jobid: 3
+    output: Results/1_GeneSequences/PB.fna, Results/1_GeneSequences/PB.faa, Results/1_GeneSequences/PB.log
+    shell:
+        
+		../bin/gffParse.pl -i PB.genome -g PB.gtf -b PB 
+-c -p
+		mv *.faa *.fna *.log Results/1_GeneSequences 
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-14T132612.711585.snakemake.log

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 6 of /home/users/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+Missing input files for rule sequence:
+TG.genome
+TG.gtf

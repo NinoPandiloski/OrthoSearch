@@ -1,0 +1,6 @@
+Wildcard constraints in inputs are ignored.
+Building DAG of jobs...
+MissingInputException in line 7 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Missing input files for rule gene_sequence:
+HT_complete.txt.genome
+HT_complete.txt.gtf

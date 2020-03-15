@@ -1,0 +1,64 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	find_orthologs
+	2	gene_sequence
+	5
+
+[Sat Mar 14 19:48:52 2020]
+rule gene_sequence:
+    input: PB.genome, PB.gtf
+    output: Results/1_GeneSequences/PB.fna, Results/1_GeneSequences/PB.faa, Results/1_GeneSequences/PB.log
+    jobid: 4
+    wildcards: sample=PB
+
+
+[Sat Mar 14 19:48:52 2020]
+rule gene_sequence:
+    input: HT.genome, HT.gtf
+    output: Results/1_GeneSequences/HT.fna, Results/1_GeneSequences/HT.faa, Results/1_GeneSequences/HT.log
+    jobid: 3
+    wildcards: sample=HT
+
+[Sat Mar 14 19:48:56 2020]
+Finished job 3.
+1 of 5 steps (20%) done
+
+[Sat Mar 14 19:48:56 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/HT.faa
+    output: Results/2_Orthologs/HT
+    jobid: 1
+    wildcards: sample=HT
+
+[Sat Mar 14 19:48:57 2020]
+Finished job 4.
+2 of 5 steps (40%) done
+
+[Sat Mar 14 19:48:57 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/PB.faa
+    output: Results/2_Orthologs/PB
+    jobid: 2
+    wildcards: sample=PB
+
+[Sat Mar 14 19:49:32 2020]
+Finished job 2.
+3 of 5 steps (60%) done
+[Sat Mar 14 20:24:49 2020]
+Finished job 1.
+4 of 5 steps (80%) done
+
+[Sat Mar 14 20:24:49 2020]
+localrule all:
+    input: Results/2_Orthologs/HT, Results/2_Orthologs/PB
+    jobid: 0
+
+[Sat Mar 14 20:24:49 2020]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-14T194852.292017.snakemake.log

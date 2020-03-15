@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	find_orthologs
+	2
+
+[Tue Mar 10 20:30:00 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/HT.faa
+    output: Results/2_Orthologs/HT
+    jobid: 1
+    wildcards: sample=HT
+
+Terminating processes on user request, this might take some time.
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 24 of /export/home/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+Missing files after 5 seconds:
+Results/2_Orthologs/HT
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-10T203000.198075.snakemake.log

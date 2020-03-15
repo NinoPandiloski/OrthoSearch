@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	2	find_orthologs
+	2	gene_sequence
+	5
+
+[Sat Mar 14 14:12:41 2020]
+rule gene_sequence:
+    input: PB.genome, PB.gtf
+    output: Results/1_GeneSequences/PB.fna, Results/1_GeneSequences/PB.faa, Results/1_GeneSequences/PB.log
+    jobid: 4
+    wildcards: sample=PB
+
+
+[Sat Mar 14 14:12:41 2020]
+rule gene_sequence:
+    input: HT.genome, HT.gtf
+    output: Results/1_GeneSequences/HT.fna, Results/1_GeneSequences/HT.faa, Results/1_GeneSequences/HT.log
+    jobid: 3
+    wildcards: sample=HT
+
+[Sat Mar 14 14:12:46 2020]
+Finished job 3.
+1 of 5 steps (20%) done
+
+[Sat Mar 14 14:12:46 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/HT.faa
+    output: Results/2_Orthologs/HT
+    jobid: 1
+    wildcards: sample=HT
+
+[Sat Mar 14 14:12:47 2020]
+Finished job 4.
+2 of 5 steps (40%) done
+
+[Sat Mar 14 14:12:47 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/PB.faa
+    output: Results/2_Orthologs/PB
+    jobid: 2
+    wildcards: sample=PB
+
+ImproperOutputException in line 24 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Outputs of incorrect type (directories when expecting files or vice versa). Output directories must be flagged with directory(). for rule find_orthologs:
+Results/2_Orthologs/PB
+Removing output files of failed job find_orthologs since they might be corrupted:
+Results/2_Orthologs/PB
+Terminating processes on user request, this might take some time.
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 24 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Missing files after 5 seconds:
+Results/2_Orthologs/HT
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-14T141241.875867.snakemake.log

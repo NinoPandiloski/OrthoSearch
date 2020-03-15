@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	find_orthologs
+	2
+
+[Thu Mar 12 12:29:22 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/HT.faa
+    output: Results/2_Orthologs/HT
+    jobid: 1
+    wildcards: sample=HT
+
+[Thu Mar 12 12:29:22 2020]
+Error in rule find_orthologs:
+    jobid: 1
+    output: Results/2_Orthologs/HT
+    shell:
+        
+		busco -m protein -i Results/1_GeneSequences/HT.faa -o HT -l plasmodium_odb10
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /export/home/bio1901/Documents/29_BINP/Project/Data/.snakemake/log/2020-03-12T122922.298300.snakemake.log

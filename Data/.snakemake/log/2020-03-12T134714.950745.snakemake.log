@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	find_orthologs
+	1	gene_sequence
+	3
+
+[Thu Mar 12 13:47:14 2020]
+rule gene_sequence:
+    input: PB.genome, PB.gtf
+    output: Results/1_GeneSequences/PB.fna, Results/1_GeneSequences/PB.faa, Results/1_GeneSequences/PB.log
+    jobid: 2
+    wildcards: sample=PB
+
+[Thu Mar 12 13:47:20 2020]
+Finished job 2.
+1 of 3 steps (33%) done
+
+[Thu Mar 12 13:47:20 2020]
+rule find_orthologs:
+    input: Results/1_GeneSequences/PB.faa
+    output: Results/2_Orthologs/PB
+    jobid: 1
+    wildcards: sample=PB
+
+RuleException in line 24 of /export/home/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+NameError: The name 'wilcards' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

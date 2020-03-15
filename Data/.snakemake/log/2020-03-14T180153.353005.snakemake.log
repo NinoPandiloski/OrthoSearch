@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 7 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Missing input files for rule gene_sequence:
+PB/run_plasmodium_odb10/full_table.tsv.genome
+PB/run_plasmodium_odb10/full_table.tsv.gtf

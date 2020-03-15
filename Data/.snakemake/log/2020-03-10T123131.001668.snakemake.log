@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	sequence
+	2
+
+[Tue Mar 10 12:31:31 2020]
+rule sequence:
+    input: HT.genome, HT.gtf
+    output: HT.fna, HT.faa, HT.log
+    jobid: 1
+    wildcards: sample=HT
+
+RuleException in line 6 of /home/users/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+NameError: The name 'sample' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

@@ -1,0 +1,3 @@
+NameError in line 5 of /home/users/bio1901/Documents/29_BINP/Project/Data/Snakefile:
+free variable 'combinator' referenced before assignment in enclosing scope
+  File "/home/users/bio1901/Documents/29_BINP/Project/Data/Snakefile", line 5, in <module>

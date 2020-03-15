@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 3 of /export/home/bio1901/Documents/29_BINP/Project/Data/Trysnake:
+Missing input files for rule all:
+Result/2_Orthologs/allBUSCO.txt
