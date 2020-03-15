@@ -1,7 +1,9 @@
+samples=["HT", "PB"]
+
 rule gene_sequence:
         input:
-                fa=expand("Data/{sample}.genome", sample=config["samples"]),
-                gff=expand("Data/{sample}.gtf", sample=config["samples"])
+                fa=expand("Data/{sample}.genome", sample=samples),
+                gff=expand("Data/{sample}.gtf", sample=samples)
 
         output:
                 "Results/1_GeneSequences/{sample}.fna",
