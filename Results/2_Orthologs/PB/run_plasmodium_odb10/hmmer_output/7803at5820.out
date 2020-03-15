@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2699_g               -            984 7803at5820           -            300   6.9e-74  247.0  17.4   1   3       1.4   2.8e+03   -4.5   0.6    85    99     9    23     7    24 0.88 length=984	scaffold=scaffold00621	strand=+
+2699_g               -            984 7803at5820           -            300   6.9e-74  247.0  17.4   2   3   9.2e-27   1.8e-23   81.4   1.3    33    93   811   871   800   880 0.90 length=984	scaffold=scaffold00621	strand=+
+2699_g               -            984 7803at5820           -            300   6.9e-74  247.0  17.4   3   3   1.9e-55   3.7e-52  175.6   3.1   193   294   883   984   869   984 0.91 length=984	scaffold=scaffold00621	strand=+
+551_g                -           1069 7803at5820           -            300   1.1e-16   59.2   9.0   1   1   3.9e-17   7.7e-14   49.8   9.0    11   270    45   301    38   310 0.79 length=1069	scaffold=scaffold00054	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/7803at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/7803at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/7803at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 18:14:50 2020
+# [ok]

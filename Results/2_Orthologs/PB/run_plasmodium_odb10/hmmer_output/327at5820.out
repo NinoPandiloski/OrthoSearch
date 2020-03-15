@@ -1,0 +1,44 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   1  10   2.6e-12   2.1e-09   33.1  30.1   115   317    22   216     9   231 0.70 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   2  10   0.00036      0.29    6.1   0.1   319   356   263   300   250   335 0.73 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   3  10   1.8e-45   1.4e-42  143.0  32.9   367   685   398   716   380   731 0.84 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   4  10   6.7e-54   5.4e-51  171.0  75.1   660  1048   892  1327   841  1391 0.69 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   5  10       2.9   2.3e+03   -6.9   7.9  1020  1095  1359  1432  1336  1436 0.78 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   6  10   1.4e-64   1.1e-61  206.4  21.2  1042  1282  1701  1933  1695  1938 0.94 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   7  10   8.6e-16   6.9e-13   44.6   3.5  1265  1322  1941  1998  1934  2024 0.85 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   8  10   1.7e-35   1.4e-32  110.0  20.3  1293  1426  2031  2179  1996  2199 0.73 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3   9  10  8.2e-180  6.6e-177  588.5  35.7  1422  1864  2256  2740  2244  2749 0.88 length=3186	scaffold=scaffold00564	strand=-
+2572_g               -           3186 327at5820            -           1976         0 1373.7 297.3  10  10   4.1e-37   3.3e-34  115.3   9.3  1839  1963  2846  2970  2833  2986 0.83 length=3186	scaffold=scaffold00564	strand=-
+1748_g               -           1349 327at5820            -           1976   2.2e-50  168.9  13.3   1   4   3.3e-12   2.6e-09   32.7   0.0  1334  1416   612   681   587   690 0.83 length=1349	scaffold=scaffold00287	strand=-
+1748_g               -           1349 327at5820            -           1976   2.2e-50  168.9  13.3   2   4   9.3e-39   7.4e-36  120.8   0.1  1555  1836   703   989   694   991 0.85 length=1349	scaffold=scaffold00287	strand=-
+1748_g               -           1349 327at5820            -           1976   2.2e-50  168.9  13.3   3   4   5.8e-09   4.7e-06   22.0   0.0  1864  1898   991  1025   987  1042 0.87 length=1349	scaffold=scaffold00287	strand=-
+1748_g               -           1349 327at5820            -           1976   2.2e-50  168.9  13.3   4   4      0.82   6.5e+02   -5.0   4.2  1446  1477  1209  1239  1124  1296 0.65 length=1349	scaffold=scaffold00287	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   1   9    0.0082       6.5    1.6   1.5  1123  1204   106   192    64   208 0.62 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   2   9      0.48   3.9e+02   -4.3   5.3  1218  1322   351   458   340   489 0.65 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   3   9         5     4e+03  -11.4  14.1  1020  1099   425   511   385   553 0.67 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   4   9   7.2e-13   5.7e-10   34.9   0.1  1321  1377   635   692   584   711 0.88 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   5   9       1.1   8.8e+02   -5.5   2.4   401  1542   819   867   786   879 0.55 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   6   9   3.8e-07   0.00031   15.9   0.1  1390  1413   914   937   901   958 0.86 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   7   9   1.7e-33   1.4e-30  103.3   3.9  1566  1707   972  1114   961  1121 0.87 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   8   9     5e-09     4e-06   22.2   5.0  1740  1834  1204  1301  1184  1332 0.71 length=1778	scaffold=scaffold00385	strand=-
+2086_g               -           1778 327at5820            -           1976   1.8e-43  146.1  86.0   9   9   1.3e-09   1.1e-06   24.1   3.6  1817  1913  1411  1509  1397  1555 0.84 length=1778	scaffold=scaffold00385	strand=-
+2850_g               -           2042 327at5820            -           1976   2.9e-37  125.4  11.9   1   3   1.3e-05      0.01   10.9   0.1  1312  1400  1506  1584  1466  1599 0.72 length=2042	scaffold=scaffold00703	strand=+
+2850_g               -           2042 327at5820            -           1976   2.9e-37  125.4  11.9   2   3   6.4e-33   5.1e-30  101.4   0.6  1593  1835  1651  1894  1646  1896 0.80 length=2042	scaffold=scaffold00703	strand=+
+2850_g               -           2042 327at5820            -           1976   2.9e-37  125.4  11.9   3   3   1.2e-07   9.4e-05   17.6   1.6  1862  1966  1895  1999  1893  2010 0.79 length=2042	scaffold=scaffold00703	strand=+
+3306_g               -            823 327at5820            -           1976   2.9e-33  112.2  53.0   1   5      0.38     3e+02   -3.9   1.5  1925  1972    64   111    54   114 0.78 length=823	scaffold=scaffold00982	strand=-
+3306_g               -            823 327at5820            -           1976   2.9e-33  112.2  53.0   2   5   8.5e-09   6.8e-06   21.4  11.8  1334  1488   137   290   112   298 0.69 length=823	scaffold=scaffold00982	strand=-
+3306_g               -            823 327at5820            -           1976   2.9e-33  112.2  53.0   3   5   2.5e-17     2e-14   49.7  13.9  1570  1710   270   424   255   431 0.70 length=823	scaffold=scaffold00982	strand=-
+3306_g               -            823 327at5820            -           1976   2.9e-33  112.2  53.0   4   5   1.4e-11   1.1e-08   30.7   6.3  1729  1834   649   753   622   756 0.74 length=823	scaffold=scaffold00982	strand=-
+3306_g               -            823 327at5820            -           1976   2.9e-33  112.2  53.0   5   5   1.5e-10   1.2e-07   27.3   0.2  1862  1903   755   796   753   812 0.86 length=823	scaffold=scaffold00982	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/327at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/327at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/327at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:56:57 2020
+# [ok]

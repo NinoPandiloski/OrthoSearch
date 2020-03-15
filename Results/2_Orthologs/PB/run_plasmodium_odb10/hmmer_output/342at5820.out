@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   1   8   2.8e-66   1.1e-62  209.9  24.2     1   214     1   245     1   251 0.85 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   2   8   2.6e-19     1e-15   54.2   1.8   209   268   267   330   264   353 0.81 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   3   8     3e-61   1.2e-57  193.3  20.0   275   424   379   530   373   539 0.94 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   4   8   3.1e-30   1.2e-26   90.5   4.0   394   486   586   674   579   690 0.87 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   5   8  1.3e-203  5.1e-200  665.3  63.5   481  1006   725  1297   716  1328 0.89 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   6   8   1.2e-78   4.8e-75  251.0  22.6   999  1167  1389  1559  1375  1576 0.93 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   7   8   3.5e-94   1.4e-90  302.5  44.1  1156  1420  1627  1908  1618  1919 0.89 length=2035	scaffold=scaffold00692	strand=-
+2829_g               -           2035 342at5820            -           1859         0 1749.2 232.2   8   8   3.9e-09   1.6e-05   20.5   0.1  1409  1470  1970  2035  1963  2035 0.87 length=2035	scaffold=scaffold00692	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/342at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/342at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/342at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:57:15 2020
+# [ok]

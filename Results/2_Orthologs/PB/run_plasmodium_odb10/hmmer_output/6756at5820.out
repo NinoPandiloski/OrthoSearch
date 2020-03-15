@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1536_g               -            460 6756at5820           -            475   3.6e-57  192.2  93.5   1   2   1.5e-59     3e-56  189.2  69.5     2   285     9   308     8   336 0.71 length=460	scaffold=scaffold00235	strand=+
+1536_g               -            460 6756at5820           -            475   3.6e-57  192.2  93.5   2   2      0.98     2e+03   -4.8  18.2   178   281   350   457   327   459 0.58 length=460	scaffold=scaffold00235	strand=+
+2027_g               -            102 6756at5820           -            475   7.1e-23   79.1  10.1   1   1   3.9e-26   7.8e-23   79.0  10.1   397   474    21   101    10   101 0.88 length=102	scaffold=scaffold00369	strand=+	adjustedToFrame=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/6756at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/6756at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/6756at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 18:12:39 2020
+# [ok]

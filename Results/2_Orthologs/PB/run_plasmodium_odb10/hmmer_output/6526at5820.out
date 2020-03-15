@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+2648_g               -           1527 6526at5820           -            360    5e-119  395.4  38.9   1   2  1.9e-120  3.9e-117  389.2  17.5     1   309     5   325     5   365 0.86 length=1527	scaffold=scaffold00598	strand=+	adjustedToFrame=2
+2648_g               -           1527 6526at5820           -            360    5e-119  395.4  38.9   2   2   5.2e-06      0.01   12.8  11.7   264   359   581   683   568   686 0.73 length=1527	scaffold=scaffold00598	strand=+	adjustedToFrame=2
+1443_g               -            283 6526at5820           -            360   8.9e-17   59.0  14.6   1   1   5.9e-20   1.2e-16   58.6  14.6    13   258    11   273     3   281 0.82 length=283	scaffold=scaffold00213	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/6526at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/6526at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/6526at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 18:11:52 2020
+# [ok]

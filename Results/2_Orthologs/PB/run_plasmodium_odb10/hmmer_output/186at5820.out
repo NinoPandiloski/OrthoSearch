@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   1  13   1.8e-08   7.1e-05   17.8   1.2   394   439     1    46     1    84 0.80 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   2  13   4.1e-19   1.6e-15   53.1  20.1   444   545   102   221    94   231 0.80 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   3  13   6.7e-32   2.7e-28   95.5   9.4   551   645   372   466   353   477 0.90 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   4  13   8.9e-29   3.5e-25   85.1  25.7   646   841   507   700   484   724 0.62 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   5  13   1.4e-19   5.7e-16   54.6  20.9   694   847   668   830   662   840 0.65 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   6  13     6e-25   2.4e-21   72.4   6.9   825  1011   923  1113   885  1132 0.75 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   7  13  6.6e-165  2.6e-161  536.6  73.1   986  1470  1131  1705  1115  1719 0.80 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   8  13   1.7e-31   6.8e-28   94.2  16.1  1450  1556  1813  1918  1797  1929 0.90 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6   9  13   1.3e-54   5.1e-51  170.8  18.1  1557  1764  1953  2176  1942  2206 0.87 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6  10  13   1.2e-60   4.7e-57  190.8  52.2  1742  2016  2238  2550  2233  2553 0.80 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6  11  13         1     4e+03  -10.7  10.7   817   862  2781  2825  2766  2845 0.45 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6  12  13         1     4e+03  -18.4  21.1   330   463  2859  3001  2829  3014 0.69 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+408_g                -           3533 186at5820            -           2019         0 1279.6 365.6  13  13      0.61   2.4e+03   -7.2   3.4  1722  1788  3409  3475  3394  3482 0.72 length=3533	scaffold=scaffold00036	strand=+	adjustedToFrame=2
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/186at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/186at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/186at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:48:06 2020
+# [ok]

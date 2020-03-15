@@ -1,0 +1,14 @@
+# BUSCO version is: 4.0.5 
+# The lineage dataset is: plasmodium_odb10 (Creation date: 2019-11-21, number of species: 23, number of BUSCOs: 3642)
+# Summarized benchmarking in BUSCO notation for file Results/1_GeneSequences/PB.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:41.4%[S:41.4%,D:0.0%],F:2.9%,M:55.7%,n:3642	   
+	1507	Complete BUSCOs (C)			   
+	1506	Complete and single-copy BUSCOs (S)	   
+	1	Complete and duplicated BUSCOs (D)	   
+	104	Fragmented BUSCOs (F)			   
+	2031	Missing BUSCOs (M)			   
+	3642	Total BUSCO groups searched		   

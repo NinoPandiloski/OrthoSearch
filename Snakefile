@@ -1,5 +1,10 @@
 samples=["HT", "PB"]
 
+rule all:
+	input:
+		expand("Results/2_Orthologs/{sample}", sample=samples),
+		expand("Results/2_Orthologs/{sample}", sample=samples)
+
 rule gene_sequence:
         input:
                 fa=expand("Data/{sample}.genome", sample=samples),
@@ -18,7 +23,7 @@ rule gene_sequence:
 
 rule find_orthologs:
         conda:
-                "../bin/envs/ortho_search.yaml"
+                "bin/envs/ortho_search.yaml"
         input:
                 faa="Results/1_GeneSequences/{sample}.faa"
         output:

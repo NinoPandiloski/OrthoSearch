@@ -1,0 +1,136 @@
+INFO:busco.run_BUSCO	***** Start a BUSCO v4.0.5 analysis, current time: 03/15/2020 17:38:08 *****
+DEBUG:busco.ConfigManager	Getting config file
+INFO:busco.ConfigManager	Configuring BUSCO with /home/users/bio1901/miniconda3/envs/busco/config/config.ini
+INFO:busco.BuscoConfig	Mode is proteins
+INFO:busco.BuscoConfig	Input file is Results/1_GeneSequences/HT.faa
+INFO:busco.BuscoDownloadManager	Downloading information on latest versions of BUSCO data...
+DEBUG:busco.BuscoConfig	State of BUSCO config before run:
+DEBUG:busco.BuscoConfig	{'_allow_no_value': False,
+ '_comment_prefixes': ('#', ';'),
+ '_converters': <configparser.ConverterMapping object at 0x7fc666a93e80>,
+ '_defaults': OrderedDict(),
+ '_delimiters': ('=', ':'),
+ '_dict': <class 'collections.OrderedDict'>,
+ '_empty_lines_in_values': True,
+ '_inline_comment_prefixes': (),
+ '_input_filepath': 'Results/1_GeneSequences/HT.faa',
+ '_interpolation': <configparser.BasicInterpolation object at 0x7fc6665722b0>,
+ '_mode': 'proteins',
+ '_optcre': re.compile('\n        (?P<option>.*?)                    # very permissive!\n        \\s*(?P<vi>=|:)\\s*              # any number of space/tab,\n                                           # followed by any of t, re.VERBOSE),
+ '_proxies': OrderedDict([('DEFAULT', <Section: DEFAULT>),
+                          ('busco_run', <Section: busco_run>),
+                          ('tblastn', <Section: tblastn>),
+                          ('makeblastdb', <Section: makeblastdb>),
+                          ('augustus', <Section: augustus>),
+                          ('etraining', <Section: etraining>),
+                          ('gff2gbSmallDNA.pl', <Section: gff2gbSmallDNA.pl>),
+                          ('new_species.pl', <Section: new_species.pl>),
+                          ('optimize_augustus.pl',
+                           <Section: optimize_augustus.pl>),
+                          ('hmmsearch', <Section: hmmsearch>),
+                          ('sepp', <Section: sepp>),
+                          ('prodigal', <Section: prodigal>)]),
+ '_sections': OrderedDict([('busco_run',
+                            OrderedDict([('in',
+                                          'Results/1_GeneSequences/HT.faa'),
+                                         ('out', 'HT'),
+                                         ('mode', 'proteins'),
+                                         ('lineage_dataset',
+                                          'plasmodium_odb10'),
+                                         ('out_path',
+                                          '/export/home/bio1901/Documents/29_BINP/OrthoSearch'),
+                                         ('cpu', '1'),
+                                         ('force', 'False'),
+                                         ('evalue', '0.001'),
+                                         ('limit', '3'),
+                                         ('long', 'False'),
+                                         ('quiet', 'False'),
+                                         ('download_path',
+                                          '/export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads'),
+                                         ('datasets_version', 'odb10'),
+                                         ('offline', 'False'),
+                                         ('download_base_url',
+                                          'https://busco-data.ezlab.org/v4/data/'),
+                                         ('auto-lineage', 'False'),
+                                         ('auto-lineage-prok', 'False'),
+                                         ('auto-lineage-euk', 'False'),
+                                         ('update-data', 'False'),
+                                         ('main_out',
+                                          '/export/home/bio1901/Documents/29_BINP/OrthoSearch/HT')])),
+                           ('tblastn',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'tblastn')])),
+                           ('makeblastdb',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'makeblastdb')])),
+                           ('augustus',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'augustus')])),
+                           ('etraining',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'etraining')])),
+                           ('gff2gbSmallDNA.pl',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'gff2gbSmallDNA.pl')])),
+                           ('new_species.pl',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'new_species.pl')])),
+                           ('optimize_augustus.pl',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'optimize_augustus.pl')])),
+                           ('hmmsearch',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'hmmsearch')])),
+                           ('sepp',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'run_sepp.py')])),
+                           ('prodigal',
+                            OrderedDict([('path',
+                                          '/home/users/bio1901/miniconda3/envs/busco/bin/'),
+                                         ('command', 'prodigal')]))]),
+ '_strict': True,
+ 'clargs': ['/home/users/bio1901/miniconda3/envs/busco/bin/busco',
+            '-m',
+            'protein',
+            '-i',
+            'Results/1_GeneSequences/HT.faa',
+            '-o',
+            'HT',
+            '-l',
+            'plasmodium_odb10'],
+ 'conf_file': '/home/users/bio1901/miniconda3/envs/busco/config/config.ini',
+ 'default_section': 'DEFAULT',
+ 'downloader': <busco.BuscoDownloadManager.BuscoDownloadManager object at 0x7fc65334bd30>,
+ 'main_out': '/export/home/bio1901/Documents/29_BINP/OrthoSearch/HT',
+ 'persistent_tools': []}
+INFO:busco.BuscoDownloadManager	Downloading file 'https://busco-data.ezlab.org/v4/data/lineages/plasmodium_odb10.2019-11-21.tar.gz'
+DEBUG:busco.BuscoDownloadManager	md5 hash is 2864777c416095670c68fece68111bfb
+INFO:busco.BuscoDownloadManager	Decompressing file '/export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10.tar.gz'
+CRITICAL:busco.run_BUSCO	Unhandled exception occurred:
+Traceback (most recent call last):
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/run_BUSCO.py", line 171, in run_BUSCO
+    config_manager.load_busco_config(sys.argv)
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoLogger.py", line 55, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/ConfigManager.py", line 68, in load_busco_config
+    self.config.download_lineage_file(lineage_dataset)  # full path will return, base name will attempt download
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoConfig.py", line 118, in download_lineage_file
+    local_lineage_filepath = self.downloader.get(lineage, "lineages")
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoDownloadManager.py", line 162, in get
+    local_filepath = self._decompress_file(local_filepath+compression_extension)
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoLogger.py", line 55, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/home/users/bio1901/miniconda3/envs/busco/lib/python3.6/site-packages/busco/BuscoDownloadManager.py", line 221, in _decompress_file
+    os.remove(local_filepath)
+FileNotFoundError: [Errno 2] No such file or directory: '/export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10.tar.gz'
+
+

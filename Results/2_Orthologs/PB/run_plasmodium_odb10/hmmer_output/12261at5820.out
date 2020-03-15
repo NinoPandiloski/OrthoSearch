@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+1159_g               -            134 12261at5820          -            151   1.5e-64  214.2   1.8   1   1   8.8e-68   1.8e-64  214.1   1.8    32   151     1   126     1   126 0.95 length=134	scaffold=scaffold00152	strand=-	adjustedToFrame=2
+736_g                -            165 12261at5820          -            151   2.3e-18   64.4   9.1   1   2   6.2e-15   1.2e-11   42.5   1.9     4    64    67   128    63   130 0.91 length=165	scaffold=scaffold00078	strand=-
+736_g                -            165 12261at5820          -            151   2.3e-18   64.4   9.1   2   2   6.9e-11   1.4e-07   29.4   1.9    94   123   123   152   122   160 0.89 length=165	scaffold=scaffold00078	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/12261at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/12261at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/12261at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:42:47 2020
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3651_g               -           1470 2454at5820           -            756  1.3e-212  706.2  87.0   1   3   1.4e-67   5.6e-64  214.7  37.3     9   347   220   571   215   583 0.86 length=1470	scaffold=scaffold01256	strand=-	adjustedToFrame=3
+3651_g               -           1470 2454at5820           -            756  1.3e-212  706.2  87.0   2   3   2.4e-41   9.6e-38  128.0  10.8   346   472   682   819   642   829 0.88 length=1470	scaffold=scaffold01256	strand=-	adjustedToFrame=3
+3651_g               -           1470 2454at5820           -            756  1.3e-212  706.2  87.0   3   3  4.2e-116  1.7e-112  375.2  22.8   474   702  1235  1463  1231  1468 0.99 length=1470	scaffold=scaffold01256	strand=-	adjustedToFrame=3
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/2454at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/2454at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/2454at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:52:49 2020
+# [ok]

@@ -1,0 +1,34 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+3663_g               -            595 2651at5820           -            741  2.8e-183  608.8  30.1   1   2  4.8e-186  2.8e-183  608.8  30.1    16   363   138   490   126   534 0.89 length=595	scaffold=scaffold01270	strand=+
+3663_g               -            595 2651at5820           -            741  2.8e-183  608.8  30.1   2   2         7     4e+03   -7.6   3.7   311   332   559   580   541   588 0.49 length=595	scaffold=scaffold01270	strand=+
+3664_g               -            347 2651at5820           -            741    2e-146  486.9  32.3   1   4   5.9e-35   3.3e-32  109.3   2.6   348   440     1    80     1    81 0.96 length=347	scaffold=scaffold01270	strand=+
+3664_g               -            347 2651at5820           -            741    2e-146  486.9  32.3   2   4   2.4e-49   1.3e-46  156.9   5.3   475   559    80   164    79   188 0.86 length=347	scaffold=scaffold01270	strand=+
+3664_g               -            347 2651at5820           -            741    2e-146  486.9  32.3   3   4     1e-62     6e-60  201.0   5.3   547   657   207   317   193   319 0.95 length=347	scaffold=scaffold01270	strand=+
+3664_g               -            347 2651at5820           -            741    2e-146  486.9  32.3   4   4   1.2e-12     7e-10   35.5   0.1   685   715   317   347   316   347 0.96 length=347	scaffold=scaffold01270	strand=+
+2178_g               -            933 2651at5820           -            741  1.7e-129  431.0  34.5   1   2  2.9e-132  1.7e-129  431.0  34.5    17   740    27   762    12   763 0.87 length=933	scaffold=scaffold00418	strand=-
+2178_g               -            933 2651at5820           -            741  1.7e-129  431.0  34.5   2   2         7     4e+03  -12.9  11.7   543   583   803   846   786   875 0.59 length=933	scaffold=scaffold00418	strand=-
+1778_g               -            767 2651at5820           -            741   1.5e-34  117.1  38.8   1   3   4.1e-34   2.3e-31  106.5   4.2    21   204    24   199     8   239 0.88 length=767	scaffold=scaffold00295	strand=+
+1778_g               -            767 2651at5820           -            741   1.5e-34  117.1  38.8   2   3   1.5e-07   8.4e-05   18.7  18.7   220   422   282   475   266   544 0.87 length=767	scaffold=scaffold00295	strand=+
+1778_g               -            767 2651at5820           -            741   1.5e-34  117.1  38.8   3   3    0.0088         5    2.9   1.0   593   687   655   749   642   764 0.74 length=767	scaffold=scaffold00295	strand=+
+2388_g               -            795 2651at5820           -            741   2.6e-31  106.3  23.2   1   3   1.2e-26   6.6e-24   81.9   1.8    12   159   121   256   112   287 0.87 length=795	scaffold=scaffold00497	strand=-
+2388_g               -            795 2651at5820           -            741   2.6e-31  106.3  23.2   2   3   2.4e-06    0.0014   14.7  13.3   276   499   307   562   262   578 0.69 length=795	scaffold=scaffold00497	strand=-
+2388_g               -            795 2651at5820           -            741   2.6e-31  106.3  23.2   3   3   2.9e-06    0.0017   14.4   0.0   644   726   578   659   574   667 0.90 length=795	scaffold=scaffold00497	strand=-
+2833_g               -           1249 2651at5820           -            741   4.1e-21   72.6   3.8   1   5         7     4e+03   -8.3   7.1   155   247   350   440   310   451 0.52 length=1249	scaffold=scaffold00693	strand=-	adjustedToFrame=3
+2833_g               -           1249 2651at5820           -            741   4.1e-21   72.6   3.8   2   5   7.2e-24   4.1e-21   72.6   3.8    19   156   472   597   463   652 0.78 length=1249	scaffold=scaffold00693	strand=-	adjustedToFrame=3
+2833_g               -           1249 2651at5820           -            741   4.1e-21   72.6   3.8   3   5      0.17        95   -1.3   5.0   339   423   686   772   644   823 0.79 length=1249	scaffold=scaffold00693	strand=-	adjustedToFrame=3
+2833_g               -           1249 2651at5820           -            741   4.1e-21   72.6   3.8   4   5   0.00016     0.093    8.6  12.8   436   558   856   981   783  1016 0.68 length=1249	scaffold=scaffold00693	strand=-	adjustedToFrame=3
+2833_g               -           1249 2651at5820           -            741   4.1e-21   72.6   3.8   5   5      0.14        81   -1.1   0.1   649   722  1048  1121  1018  1141 0.70 length=1249	scaffold=scaffold00693	strand=-	adjustedToFrame=3
+750_g                -            466 2651at5820           -            741   6.1e-11   39.0   0.6   1   2   1.1e-13   6.1e-11   39.0   0.6    21   158    81   210    62   226 0.85 length=466	scaffold=scaffold00080	strand=-
+750_g                -            466 2651at5820           -            741   6.1e-11   39.0   0.6   2   2      0.44   2.5e+02   -2.7   0.0   395   419   336   359   301   383 0.69 length=466	scaffold=scaffold00080	strand=-
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/2651at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/2651at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/2651at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 17:53:54 2020
+# [ok]

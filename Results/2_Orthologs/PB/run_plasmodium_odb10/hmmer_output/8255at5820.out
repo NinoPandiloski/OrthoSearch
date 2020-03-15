@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+935_g                -            450 8255at5820           -            311  2.5e-124  412.7  36.1   1   2   1.4e-26   2.8e-23   80.8   5.0     2    73    30   102    29   108 0.86 length=450	scaffold=scaffold00109	strand=-
+935_g                -            450 8255at5820           -            311  2.5e-124  412.7  36.1   2   2  7.3e-105  1.5e-101  337.9  23.1    70   293   227   450   210   450 0.97 length=450	scaffold=scaffold00109	strand=-
+1716_g               -            178 8255at5820           -            311     0.053   10.9  11.8   1   1   0.00013      0.26    8.6  11.8    77   177    62   165     6   177 0.85 length=178	scaffold=scaffold00278	strand=+
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/8255at5820.hmm
+# Target file:     Results/1_GeneSequences/PB.faa
+# Option settings: /home/users/bio1901/miniconda3/envs/busco/bin/hmmsearch --domtblout /export/home/bio1901/Documents/29_BINP/OrthoSearch/PB/run_plasmodium_odb10/hmmer_output/8255at5820.out --cpu 1 /export/home/bio1901/Documents/29_BINP/OrthoSearch/busco_downloads/lineages/plasmodium_odb10/hmms/8255at5820.hmm Results/1_GeneSequences/PB.faa 
+# Current dir:     /export/home/bio1901/Documents/29_BINP/OrthoSearch
+# Date:            Sun Mar 15 18:15:32 2020
+# [ok]
